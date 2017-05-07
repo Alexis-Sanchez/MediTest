@@ -46,14 +46,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Escenario.cs" />
-     <Compile Include="Assets\Preguntas.cs" />
-     <Compile Include="Assets\nextButtom.cs" />
-     <Compile Include="Assets\puntuacion.cs" />
-     <Compile Include="Assets\resp1.cs" />
-     <Compile Include="Assets\resp2.cs" />
-     <Compile Include="Assets\resp3.cs" />
-     <Compile Include="Assets\resp4.cs" />
+     <Compile Include="Assets\Script´s\Accion.cs" />
+     <Compile Include="Assets\Script´s\Escenario.cs" />
+     <Compile Include="Assets\Script´s\Preguntas.cs" />
+     <Compile Include="Assets\Script´s\nextButtom.cs" />
+     <Compile Include="Assets\Script´s\puntuacion.cs" />
+     <Compile Include="Assets\Script´s\resp1.cs" />
+     <Compile Include="Assets\Script´s\resp2.cs" />
+     <Compile Include="Assets\Script´s\resp3.cs" />
+     <Compile Include="Assets\Script´s\resp4.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
