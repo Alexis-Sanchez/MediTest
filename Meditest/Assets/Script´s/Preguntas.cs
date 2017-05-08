@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Preguntas : MonoBehaviour 
 {
+	public static int ganador = 0;
+
+
 	static string pregunta1="Los virus poseen genomas sencillos que tienen toda la informacion \n para sintetizar sus propias proteinas utilizando la celula que infecta para este fin,\n deacuerdo con esto podriamos pensar: ";
 	static string pregunta2 = "La replicacion viral puede causar daños en el genoma de una celula \n lo que ocaciona que eta pueda volverce cancerigena,\n los virus implicados en este'proceso a la fecha se cree que son:";
 	static string pregunta3 = "Los plasmidos son moleculas de aminoacidos que le permiten a las bacterias \n poseer ventajas en condiciones de crecimiento determinadas,\n la frase es: ";
@@ -15,6 +18,7 @@ public class Preguntas : MonoBehaviour
 
 	List<string> respCorrecta = new List<string>(){"1","1","2","4","4","4","1","2","4","3","4","1","2","4","3"};
 
+	List<int> numeros = new List<int> ();
 	public static string respSeleccionada;
 	public Transform objetoResultado;
 	public static string seleccion="n";
@@ -27,16 +31,19 @@ public class Preguntas : MonoBehaviour
 	{
 		if(Escenario.categoria=="categoria 1")
 		{
+			ganador = 0;
 			cateModificacion = 0;
 
 		}
 		if(Escenario.categoria=="categoria 2")
 		{
+			ganador = 0;
 			cateModificacion = 5;
 
 		}
 		if(Escenario.categoria=="categoria 3")
 		{
+			ganador = 0;
 			cateModificacion = 10;
 
 		}
@@ -47,9 +54,14 @@ public class Preguntas : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		if(ganador == 50)
+		{
+			SceneManager.LoadScene ("Ganadores");
+		}
 		if(RandPreg==-1)
 		{
 			RandPreg = Random.Range (0+cateModificacion, 5+cateModificacion);
+			numeros.Add (RandPreg);
 		}
 		if(RandPreg>-1)
 		{
@@ -64,16 +76,16 @@ public class Preguntas : MonoBehaviour
 
 			if (respCorrecta [RandPreg] == respSeleccionada) 
 			{
+				ganador += 10;
 				objetoResultado.GetComponent<TextMesh> ().text = "Correcto!!";
+				nextButtom.OnMouseDown ();
 
-				//Debug.Log ("correcto"+" "+RandPreg);
+
 			} else {
+				ganador += 10;
 				objetoResultado.GetComponent<TextMesh> ().text = "Incorrecto!!";
-
+				nextButtom.OnMouseDown ();
 			}
-
-
 		}
-
 	}
 }

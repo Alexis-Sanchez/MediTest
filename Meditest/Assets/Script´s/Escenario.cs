@@ -19,5 +19,6 @@ public class Escenario : MonoBehaviour {
 	{
 		categoria = gameObject.name;
 		SceneManager.LoadScene ("Escenario");
+
 	}
 }

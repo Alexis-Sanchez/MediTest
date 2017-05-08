@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class nextButtom : MonoBehaviour {
+public class nextButtom : MonoBehaviour 
+{
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +15,7 @@ public class nextButtom : MonoBehaviour {
 		
 	}
 
-	void OnMouseDown()
+	public static void OnMouseDown()
 	{
 		Preguntas.RandPreg = -1;
 

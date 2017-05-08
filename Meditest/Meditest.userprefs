@@ -1,15 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Preguntas.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script´s\Login.cs">
     <Files>
-      <File FileName="Assets\Preguntas.cs" Line="68" Column="5" />
-      <File FileName="Assets\resp1.cs" Line="1" Column="1" />
-      <File FileName="Assets\resp2.cs" Line="1" Column="1" />
-      <File FileName="Assets\resp3.cs" Line="1" Column="1" />
-      <File FileName="Assets\resp4.cs" Line="1" Column="1" />
-      <File FileName="Assets\Escenario.cs" Line="1" Column="1" />
-      <File FileName="Assets\puntuacion.cs" Line="1" Column="1" />
-      <File FileName="Assets\nextButtom.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script´s\nextButtom.cs" Line="9" Column="17" />
+      <File FileName="Assets\Script´s\Preguntas.cs" Line="85" Column="9" />
+      <File FileName="Assets\Script´s\resp1.cs" Line="28" Column="2" />
+      <File FileName="Assets\Script´s\resp2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script´s\resp3.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script´s\resp4.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script´s\Login.cs" Line="18" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

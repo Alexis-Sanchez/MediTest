@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class puntuacion : MonoBehaviour {
+public class puntuacion : MonoBehaviour 
+{
 
 	// Use this for initialization
 	void Start () {
