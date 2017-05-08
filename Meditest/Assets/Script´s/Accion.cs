@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Accion : MonoBehaviour {
 
-	public void CambiarEscena(string nombre){
+	public void CambiarEscena(string nombre)
+	{
 		SceneManager.LoadScene (nombre);
 
 	}

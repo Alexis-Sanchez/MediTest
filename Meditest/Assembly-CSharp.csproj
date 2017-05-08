@@ -50,6 +50,7 @@
      <Compile Include="Assets\Script´s\Escenario.cs" />
      <Compile Include="Assets\Script´s\Login.cs" />
      <Compile Include="Assets\Script´s\Preguntas.cs" />
+     <Compile Include="Assets\Script´s\Puntaje.cs" />
      <Compile Include="Assets\Script´s\nextButtom.cs" />
      <Compile Include="Assets\Script´s\puntuacion.cs" />
      <Compile Include="Assets\Script´s\resp1.cs" />

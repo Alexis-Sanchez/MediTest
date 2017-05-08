@@ -8,9 +8,20 @@ public class resp2 : MonoBehaviour {
 	static string respuesta3="Correcta porque los plasmidos permiten sintetizar enzimas para degradar antibioticos";
 	static string respuesta4="Celulas mas exigentes por lo cual son mas especificas";
 	static string respuesta5="G1";
+	static string respuesta6="Síntesis de proteínas.";
+	static string respuesta7="131";
+	static string respuesta8="Glicina";
+	static string respuesta9="ARN";
+	static string respuesta10="Porque permite diseñar tratamientos específicos.";
+	static string respuesta11="Porque nos permite conocer mejor como se comportaran en el organismo";
+	static string respuesta12="Ribosoma";
+	static string respuesta13="Vacunas, producidas mediante tecnologías de ADN recombinante";
+	static string respuesta14="Elevada";
+	static string respuesta15="Se produce la proteína en el citoplasma y hay un retraso en la llegada al retículo.";
+
 	List<string> res2= new List<string>(){respuesta1,respuesta2,respuesta3,respuesta4,respuesta5
-		,"Respuesta 6","respuesta 7","respuesta 8","respuesta 9","respuesta 10",
-		"Respuesta 11","respuesta 12","respuesta 13","respuesta 14","respuesta 15"};
+		,respuesta6,respuesta7,respuesta8,respuesta9,respuesta10,
+		respuesta11,respuesta12,respuesta13,respuesta14,respuesta15};
 
 	// Use this for initialization
 	void Start () {
