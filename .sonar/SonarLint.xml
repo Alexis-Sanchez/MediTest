@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalysisInput>
+  <Settings>
+    <Setting>
+      <Key>sonar.cs.ignoreHeaderComments</Key>
+      <Value>true</Value>
+    </Setting>
+    <Setting>
+      <Key>sonar.sourceEncoding</Key>
+      <Value>UTF-8</Value>
+    </Setting>
+  </Settings>
+  <Rules>
+    <Rule>
+      <Key>S112</Key>
+    </Rule>
+    <Rule>
+      <Key>S1939</Key>
+    </Rule>
+    <Rule>
+      <Key>S1940</Key>
+    </Rule>
+    <Rule>
+      <Key>S125</Key>
+    </Rule>
+    <Rule>
+      <Key>S1944</Key>
+    </Rule>
+    <Rule>
+      <Key>S134</Key>
+      <Parameters>
+        <Parameter>
+          <Key>max</Key>
+          <Value>3</Value>
+        </Parameter>
+      </Parameters>
+    </Rule>
+    <Rule>
+      <Key>S2930</Key>
+    </Rule>
+    <Rule>
+      <Key>S2933</Key>
+    </Rule>
+    <Rule>
+      <Key>S2934</Key>
+    </Rule>
+    <Rule>
+      <Key>S1848</Key>
+    </Rule>
+    <Rule>
+      <Key>S1905</Key>
+    </Rule>
+    <Rule>
+      <Key>S2743</Key>
+    </Rule>
+    <Rule>
+      <Key>S1656</Key>
+    </Rule>
+    <Rule>
+      <Key>S3600</Key>
+    </Rule>
+    <Rule>
+      <Key>S2995</Key>
+    </Rule>
+    <Rule>
+      <Key>S2996</Key>
+    </Rule>
+    <Rule>
+      <Key>S2997</Key>
+    </Rule>
+    <Rule>
+      <Key>S3604</Key>
+    </Rule>
+    <Rule>
+      <Key>S2757</Key>
+    </Rule>
+    <Rule>
+      <Key>S3603</Key>
+    </Rule>
+    <Rule>
+      <Key>S2758</Key>
+    </Rule>
+    <Rule>
+      <Key>S2761</Key>
+    </Rule>
+    <Rule>
+      <Key>S3610</Key>
+    </Rule>
+    <Rule>
+      <Key>S3626</Key>
+    </Rule>
+    <Rule>
+      <Key>S1449</Key>
+    </Rule>
+    <Rule>
+      <Key>S1854</Key>
+    </Rule>
+    <Rule>
+      <Key>S1862</Key>
+    </Rule>
+    <Rule>
+      <Key>S2953</Key>
+    </Rule>
+    <Rule>
+      <Key>S1871</Key>
+    </Rule>
+    <Rule>
+      <Key>S2971</Key>
+    </Rule>
+    <Rule>
+      <Key>S1643</Key>
+    </Rule>
+    <Rule>
+      <Key>S1764</Key>
+    </Rule>
+    <Rule>
+      <Key>S2223</Key>
+    </Rule>
+    <Rule>
+      <Key>S2344</Key>
+    </Rule>
+    <Rule>
+      <Key>S1134</Key>
+    </Rule>
+    <Rule>
+      <Key>S1135</Key>
+    </Rule>
+    <Rule>
+      <Key>S2345</Key>
+    </Rule>
+    <Rule>
+      <Key>S2225</Key>
+    </Rule>
+    <Rule>
+      <Key>S2346</Key>
+    </Rule>
+    <Rule>
+      <Key>S907</Key>
+    </Rule>
+    <Rule>
+      <Key>S2583</Key>
+    </Rule>
+    <Rule>
+      <Key>S3444</Key>
+    </Rule>
+    <Rule>
+      <Key>S1144</Key>
+    </Rule>
+    <Rule>
+      <Key>S2234</Key>
+    </Rule>
+    <Rule>
+      <Key>S1145</Key>
+    </Rule>
+    <Rule>
+      <Key>S3443</Key>
+    </Rule>
+    <Rule>
+      <Key>S3445</Key>
+    </Rule>
+    <Rule>
+      <Key>S3447</Key>
+    </Rule>
+    <Rule>
+      <Key>S3449</Key>
+    </Rule>
+    <Rule>
+      <Key>S3440</Key>
+    </Rule>
+    <Rule>
+      <Key>S1155</Key>
+    </Rule>
+    <Rule>
+      <Key>S2123</Key>
+    </Rule>
+    <Rule>
+      <Key>S2486</Key>
+    </Rule>
+    <Rule>
+      <Key>S3457</Key>
+    </Rule>
+    <Rule>
+      <Key>S2368</Key>
+    </Rule>
+    <Rule>
+      <Key>S3456</Key>
+    </Rule>
+    <Rule>
+      <Key>S3459</Key>
+    </Rule>
+    <Rule>
+      <Key>S3217</Key>
+    </Rule>
+    <Rule>
+      <Key>S3458</Key>
+    </Rule>
+    <Rule>
+      <Key>S927</Key>
+    </Rule>
+    <Rule>
+      <Key>S3218</Key>
+    </Rule>
+    <Rule>
+      <Key>S3451</Key>
+    </Rule>
+    <Rule>
+      <Key>S3450</Key>
+    </Rule>
+    <Rule>
+      <Key>S3453</Key>
+    </Rule>
+    <Rule>
+      <Key>S3466</Key>
+    </Rule>
+    <Rule>
+      <Key>S2376</Key>
+    </Rule>
+    <Rule>
+      <Key>S2259</Key>
+    </Rule>
+    <Rule>
+      <Key>S818</Key>
+    </Rule>
+    <Rule>
+      <Key>S3220</Key>
+    </Rule>
+    <Rule>
+      <Key>S2372</Key>
+    </Rule>
+    <Rule>
+      <Key>S1163</Key>
+    </Rule>
+    <Rule>
+      <Key>S1210</Key>
+    </Rule>
+    <Rule>
+      <Key>S1699</Key>
+    </Rule>
+    <Rule>
+      <Key>S2306</Key>
+    </Rule>
+    <Rule>
+      <Key>S1450</Key>
+    </Rule>
+    <Rule>
+      <Key>S2437</Key>
+    </Rule>
+    <Rule>
+      <Key>S2201</Key>
+    </Rule>
+    <Rule>
+      <Key>S3655</Key>
+    </Rule>
+    <Rule>
+      <Key>S2688</Key>
+    </Rule>
+    <Rule>
+      <Key>S2326</Key>
+    </Rule>
+    <Rule>
+      <Key>S1479</Key>
+      <Parameters>
+        <Parameter>
+          <Key>maximum</Key>
+          <Value>30</Value>
+        </Parameter>
+      </Parameters>
+    </Rule>
+    <Rule>
+      <Key>S1116</Key>
+    </Rule>
+    <Rule>
+      <Key>S1117</Key>
+    </Rule>
+    <Rule>
+      <Key>S2328</Key>
+    </Rule>
+    <Rule>
+      <Key>S1118</Key>
+    </Rule>
+    <Rule>
+      <Key>S2681</Key>
+    </Rule>
+    <Rule>
+      <Key>S2696</Key>
+    </Rule>
+    <Rule>
+      <Key>S1244</Key>
+    </Rule>
+    <Rule>
+      <Key>S1125</Key>
+    </Rule>
+    <Rule>
+      <Key>S1006</Key>
+    </Rule>
+    <Rule>
+      <Key>S3427</Key>
+    </Rule>
+    <Rule>
+      <Key>S1481</Key>
+    </Rule>
+    <Rule>
+      <Key>S2692</Key>
+    </Rule>
+    <Rule>
+      <Key>S1121</Key>
+    </Rule>
+    <Rule>
+      <Key>S2219</Key>
+    </Rule>
+    <Rule>
+      <Key>S2184</Key>
+    </Rule>
+    <Rule>
+      <Key>S3397</Key>
+    </Rule>
+    <Rule>
+      <Key>S2190</Key>
+    </Rule>
+    <Rule>
+      <Key>S3169</Key>
+    </Rule>
+    <Rule>
+      <Key>S3168</Key>
+    </Rule>
+    <Rule>
+      <Key>S3172</Key>
+    </Rule>
+    <Rule>
+      <Key>S3598</Key>
+    </Rule>
+    <Rule>
+      <Key>S3597</Key>
+    </Rule>
+    <Rule>
+      <Key>S3234</Key>
+    </Rule>
+    <Rule>
+      <Key>S3237</Key>
+    </Rule>
+    <Rule>
+      <Key>S3236</Key>
+    </Rule>
+    <Rule>
+      <Key>S1172</Key>
+    </Rule>
+    <Rule>
+      <Key>S3246</Key>
+    </Rule>
+    <Rule>
+      <Key>S2278</Key>
+    </Rule>
+    <Rule>
+      <Key>S3005</Key>
+    </Rule>
+    <Rule>
+      <Key>S3249</Key>
+    </Rule>
+    <Rule>
+      <Key>S1185</Key>
+    </Rule>
+    <Rule>
+      <Key>S3241</Key>
+    </Rule>
+    <Rule>
+      <Key>S3244</Key>
+    </Rule>
+    <Rule>
+      <Key>S1186</Key>
+    </Rule>
+    <Rule>
+      <Key>S2275</Key>
+    </Rule>
+    <Rule>
+      <Key>S1066</Key>
+    </Rule>
+    <Rule>
+      <Key>S3256</Key>
+    </Rule>
+    <Rule>
+      <Key>S3251</Key>
+    </Rule>
+    <Rule>
+      <Key>S3010</Key>
+    </Rule>
+    <Rule>
+      <Key>S3376</Key>
+    </Rule>
+    <Rule>
+      <Key>S2290</Key>
+    </Rule>
+    <Rule>
+      <Key>S2178</Key>
+    </Rule>
+    <Rule>
+      <Key>S2291</Key>
+    </Rule>
+    <Rule>
+      <Key>S2292</Key>
+    </Rule>
+    <Rule>
+      <Key>S3262</Key>
+    </Rule>
+    <Rule>
+      <Key>S3261</Key>
+    </Rule>
+    <Rule>
+      <Key>S3264</Key>
+    </Rule>
+    <Rule>
+      <Key>S3263</Key>
+    </Rule>
+    <Rule>
+      <Key>S3265</Key>
+    </Rule>
+    <Rule>
+      <Key>S104</Key>
+      <Parameters>
+        <Parameter>
+          <Key>maximumFileLocThreshold</Key>
+          <Value>1000</Value>
+        </Parameter>
+      </Parameters>
+    </Rule>
+    <Rule>
+      <Key>S101</Key>
+    </Rule>
+    <Rule>
+      <Key>S107</Key>
+      <Parameters>
+        <Parameter>
+          <Key>max</Key>
+          <Value>7</Value>
+        </Parameter>
+      </Parameters>
+    </Rule>
+    <Rule>
+      <Key>S108</Key>
+    </Rule>
+  </Rules>
+  <Files>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\Accion.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\Escenario.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\Login.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\Preguntas.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\Puntaje.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\nextButtom.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\nextEscene.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\over.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\puntuacion.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\resp1.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\resp2.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\resp3.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Script´s\resp4.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\2D\Scripts\CameraFollow.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\2D\Scripts\Restarter.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Cameras\Scripts\AutoCam.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Cameras\Scripts\FreeLookCam.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Cameras\Scripts\HandHeldCam.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Cameras\Scripts\LookatTarget.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Characters\RollerBall\Scripts\Ball.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\AntialiasingEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\BloomAndFlaresEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\BloomEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\CameraMotionBlurEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\ColorCorrectionLookupEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\CreaseShadingEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\DepthOfFieldEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\EdgeDetectionEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\NoiseAndGrainEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\SunShaftsEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\TonemappingEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Environment\Water\Water\Scripts\Displace.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Environment\Water\Water\Scripts\Water.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\ParticleSystems\Scripts\Explosive.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\ParticleSystems\Scripts\FireLight.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\ParticleSystems\Scripts\Hose.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\ParticleSystems\Scripts\SmokeParticles.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\ActivateTrigger.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\AlphaButtonClickMask.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\AutoMobileShaderSwitch.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\AutoMoveAndRotate.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\CameraRefocus.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\CurveControlledBob.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\DragRigidbody.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\DynamicShadowSettings.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\EventSystemChecker.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\FOVKick.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\FPSCounter.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\FollowTarget.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\ForcedReset.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\LerpControlledBob.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\ObjectResetter.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\ParticleSystemDestroyer.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\PlatformSpecificContent.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\SimpleActivatorMenu.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\SimpleMouseRotator.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\SmoothFollow.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\TimedObjectActivator.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\TimedObjectDestructor.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\WaypointCircuit.cs</File>
+    <File>C:\Users\Alexis\Music\MediTestP\Meditest\Assets\Standard Assets\Utility\WaypointProgressTracker.cs</File>
+  </Files>
+</AnalysisInput>

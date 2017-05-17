@@ -1,0 +1,5 @@
+projectKey=medicina
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/medicina
+ceTaskId=AVwW14NC1bJLD3XVCXEX
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVwW14NC1bJLD3XVCXEX

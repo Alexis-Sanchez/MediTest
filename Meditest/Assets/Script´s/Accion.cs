@@ -8,7 +8,7 @@ public class Accion : MonoBehaviour {
 	public void CambiarEscena(string nombre)
 	{
 		SceneManager.LoadScene (nombre);
-
+		Preguntas.ganador = 0;
 	}
 
 	public void Salir (){

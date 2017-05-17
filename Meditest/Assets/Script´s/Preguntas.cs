@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class Preguntas : MonoBehaviour 
 {
 	public static int ganador = 0;
+	public static int numeroclick = 0;
 
 
 	static string pregunta1="Los virus poseen genomas sencillos que tienen toda la informacion \n para sintetizar sus propias proteinas utilizando la celula que infecta para este fin,\n deacuerdo con esto podriamos pensar: ";
@@ -91,14 +92,27 @@ public class Preguntas : MonoBehaviour
 			if (respCorrecta [RandPreg] == respSeleccionada) 
 			{
 				ganador += 10;
+				numeroclick += 1;
 				objetoResultado.GetComponent<TextMesh> ().text = "Correcto!!";
+
+				if(ganador==50||numeroclick==5){
+					nextEscene.OnMouseDown ();
+				}else					
 				nextButtom.OnMouseDown ();
 
 
 			} else {
-				ganador += 10;
+				
+				numeroclick += 1;
 				objetoResultado.GetComponent<TextMesh> ().text = "Incorrecto!!";
-				nextButtom.OnMouseDown ();
+				objetoResultado.GetComponent<TextMesh> ().text = "respuesta";
+				if(numeroclick==5)
+				{
+					nextEscene.OnMouseDown ();
+				}else
+					nextButtom.OnMouseDown ();
+
+
 			}
 		}
 	}
